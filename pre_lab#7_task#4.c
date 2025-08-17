@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h> 
 int factorial_fun(int n) {
 
 int factt=1;
@@ -18,3 +19,4 @@ void main() {
     int fact= factorial_fun(num);
     printf("%d is the factorial of the %d",fact,num);
 }
+
